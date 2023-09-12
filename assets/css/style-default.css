@@ -9849,7 +9849,7 @@ lgx-zoomInUp
 /* 2.5 Speakers SECTION
 ---------------------------------------------------------------------*/
 .lgx-speakers2 {
-  background: url('http://placehold.it/1920x1000') bottom left no-repeat fixed;
+  background: url('../img/back1920x1000.png') bottom left no-repeat fixed;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -9861,7 +9861,7 @@ lgx-zoomInUp
 }
 
 .lgx-speakers3 {
-  background: url('http://placehold.it/1920x1000') bottom left no-repeat fixed;
+  background: url('../img/backPeruri.jpg') bottom left no-repeat fixed;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -9869,7 +9869,7 @@ lgx-zoomInUp
 }
 
 .lgx-speakers4 {
-  background: url('http://placehold.it/1920x1000') bottom left no-repeat fixed;
+  background: url('../img/backPeruri.jpg') bottom left no-repeat fixed;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -9877,7 +9877,7 @@ lgx-zoomInUp
 }
 
 .lgx-speakers-christmas {
-  background: url('http://placehold.it/1920x1000') center center no-repeat fixed;
+  background: url('../img/backPeruri.jpg') center center no-repeat fixed;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -10357,7 +10357,7 @@ lgx-zoomInUp
 /* 2.6  Milestone SECTION
 ---------------------------------------------------------------------*/
 .lgx-milestone-about {
-  background: url('http://placehold.it/1920x800') top center no-repeat;
+  background: url('../img/back1920x800.png') top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -10455,7 +10455,7 @@ lgx-zoomInUp
 }
 
 .lgx-schedule-music {
-  background: url('http://placehold.it/1920x1000') top center no-repeat fixed;
+  background: url('../img/backPeruri.jpg') top center no-repeat fixed;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -11023,7 +11023,7 @@ lgx-zoomInUp
 /* 2.8 Sponsors SECTION
 ---------------------------------------------------------------------*/
 .lgx-sponsors {
-  background: url('http://placehold.it/1920x1000') bottom center no-repeat;
+  background: url('../img/backPeruri.jpg') bottom center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -11487,7 +11487,7 @@ lgx-zoomInUp
 }
 
 .lgx-news-black {
-  background: url('http://placehold.it/1920x800') bottom center no-repeat fixed;
+  background: url('../img/back1920x800.png') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -11599,7 +11599,7 @@ lgx-zoomInUp
 }
 
 .lgx-registration2 {
-  background: url('http://placehold.it/1920x1000') bottom center no-repeat fixed;
+  background: url('../img/backPeruri.jpg') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -11615,7 +11615,7 @@ lgx-zoomInUp
 }
 
 .lgx-registration4 {
-  background: url('http://placehold.it/1920x1000') bottom center no-repeat fixed;
+  background: url('../img/backPeruri.jpg') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -11628,7 +11628,7 @@ lgx-zoomInUp
 }
 
 .lgx-registration-christmas {
-  background: url('http://placehold.it/1920x800') center center no-repeat fixed;
+  background: url('../img/back1920x800.png') center center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -12199,7 +12199,7 @@ lgx-zoomInUp
 }
 
 .lgx-registration-simple {
-  background: url('http://placehold.it/1920x800') bottom center no-repeat fixed;
+  background: url('../img/back1920x800.png') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -12380,7 +12380,7 @@ lgx-zoomInUp
 }
 
 .lgx-countdowns3 {
-  background: url('http://placehold.it/1920x800') top center no-repeat fixed;
+  background: url('../img/back1920x800.png') top center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -12392,7 +12392,7 @@ lgx-zoomInUp
 }
 
 .lgx-countdowns4 {
-  background: url('http://placehold.it/1920x800') top center no-repeat fixed;
+  background: url('../img/back1920x800.png') top center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -12747,7 +12747,7 @@ lgx-zoomInUp
 }
 
 .lgx-photo-gallery-black {
-  background: url('http://placehold.it/1920x800') bottom center no-repeat fixed;
+  background: url('../img/back1920x800.png') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -12766,7 +12766,7 @@ lgx-zoomInUp
 /* 2.13 Testimonials SECTION
 ---------------------------------------------------------------------*/
 .lgx-testimonial {
-  background: url('http://placehold.it/1920x1000') bottom center no-repeat;
+  background: url('../img/backPeruri.jpg') bottom center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -13325,7 +13325,7 @@ blockquote.lgx-testi-single:before {
 /* 2.16 VIDEO SECTION
 ---------------------------------------------------------------------*/
 .lgx-video {
-  background: url('http://placehold.it/1920x800') top center no-repeat;
+  background: url('../img/back1920x800.png') top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -13338,7 +13338,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-video2 {
-  background: url('http://placehold.it/1920x800') top center no-repeat;
+  background: url('../img/back1920x800.png') top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -13350,7 +13350,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-video-christmas {
-  background: url('http://placehold.it/1920x800') center center no-repeat;
+  background: url('../img/back1920x800.png') center center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -13554,7 +13554,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-leftright-area .lgx-venu-img {
-  background: url('http://placehold.it/1920x800') center center no-repeat;
+  background: url('../img/back1920x800.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -13562,7 +13562,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-leftright-area .lgx-transport-img {
-  background: url('http://placehold.it/1920x800') center center no-repeat;
+  background: url('../img/back1920x800.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -13570,7 +13570,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-leftright-area .lgx-hotel-img {
-  background: url('http://placehold.it/1920x800') center center no-repeat;
+  background: url('../img/back1920x800.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;

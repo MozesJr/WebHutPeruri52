@@ -1,25 +1,29 @@
-
 .lgx-inner-countdown {
   background: @brand-color;
   display: flex;
+
   .countdown-left-info {
     background: @brand-color3;
     width: 30%;
     text-align: center;
     padding: 4.2rem 1rem;
+
     .title {
       margin-top: 0;
       font-weight: 700;
     }
+
     .subtitle {
       font-family: @lgx-base-font;
       font-weight: 400;
       margin-bottom: 0;
     }
+
     .date {
       font-family: @lgx-heading-font;
     }
   }
+
   .countdown-right {
     text-align: center;
     margin: 0 auto;
@@ -30,6 +34,7 @@
 
 #lgx-countdown {
   margin-top: -15px;
+
   span {
     text-align: center;
     font-family: @lgx-heading-font;
@@ -41,10 +46,12 @@
     letter-spacing: .16rem;
     position: relative;
     bottom: -15px;
+
     &:last-child {
       margin-right: 0;
     }
   }
+
   i {
     font-family: @lgx-base-font;
     .font-size(20);
@@ -52,24 +59,30 @@
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: normal;
-    -ms-transform: rotate(-90deg) ; /* IE 9 */
-    -webkit-transform: rotate(-90deg) ; /* Chrome, Safari, Opera */
-    transform: rotate(-90deg) ;
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
     font-style: normal;
     display: inline-block;
     position: absolute;
     bottom: 32px;
     right: -35px;
   }
+
   .lgx-days {
     color: #fff200;
   }
+
   .lgx-hr {
     color: #ff8a00;
   }
+
   .lgx-min {
     color: #00b9ff;
   }
+
   .lgx-sec {
     color: #8dc63f;
   }
@@ -89,10 +102,12 @@
     margin-right: 2rem;
     position: relative;
     bottom: 0px;
+
     &:last-child {
       margin-right: 0;
     }
   }
+
   i {
     font-family: @lgx-base-font;
     .font-size(14);
@@ -100,9 +115,11 @@
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: normal;
-    -ms-transform: rotate(0deg) ; /* IE 9 */
-    -webkit-transform: rotate(0deg) ; /* Chrome, Safari, Opera */
-    transform: rotate(0deg) ;
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
     font-style: normal;
     display: inline-block;
     position: absolute;
@@ -111,15 +128,19 @@
     left: 0;
     opacity: .7;
   }
+
   .lgx-days {
     color: #fff;
   }
+
   .lgx-hr {
     color: #fff;
   }
+
   .lgx-min {
     color: #fff;
   }
+
   .lgx-sec {
     color: #fff;
   }
@@ -128,22 +149,24 @@
 
 
 .lgx-countdowns3 {
-  background: url('http://placehold.it/1920x800') top center no-repeat fixed;
+  background: url('../img/back1920x800.png') top center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+
   .lgx-inner {
     .bg-rgba(@brand-color, 0.9);
   }
 }
 
 .lgx-countdowns4 {
-  background: url('http://placehold.it/1920x800') top center no-repeat fixed;
+  background: url('../img/back1920x800.png') top center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+
   .lgx-inner {
     .bg-rgba(@black-color, 1);
     padding: 6.8rem 0;
@@ -154,8 +177,10 @@
 .lgx-countdown-area-squre {
   text-align: center;
   margin: 0 auto;
+
   #lgx-countdown {
     display: flex;
+
     span {
       text-align: center;
       font-family: @lgx-heading-font;
@@ -170,13 +195,16 @@
       top: 0;
       flex: 1;
       height: 180px;
+
       &:first-child {
         border-radius: 6px 0 0 6px;
       }
+
       &:last-child {
         border-radius: 0 6px 6px 0;
       }
     }
+
     i {
       font-family: @lgx-base-font;
       .font-size(20);
@@ -184,9 +212,11 @@
       text-transform: uppercase;
       font-weight: 300;
       letter-spacing: normal;
-      -ms-transform: rotate(0deg) ; /* IE 9 */
-      -webkit-transform: rotate(0deg) ; /* Chrome, Safari, Opera */
-      transform: rotate(0deg) ;
+      -ms-transform: rotate(0deg);
+      /* IE 9 */
+      -webkit-transform: rotate(0deg);
+      /* Chrome, Safari, Opera */
+      transform: rotate(0deg);
       font-style: normal;
       display: inline-block;
       position: absolute;
@@ -199,14 +229,17 @@
       color: #fff;
       background: #fac400;
     }
+
     .lgx-hr {
       color: #fff;
       background: #ff8a00;
     }
+
     .lgx-min {
       color: #fff;
       background: #00acee;
     }
+
     .lgx-sec {
       color: #fff;
       background: #8478fd;
@@ -218,25 +251,28 @@
 .lgx-countdowns-banner-bottom {
   background: @white-color;
 }
+
 .lgx-countdowns-banner-bottom {
   border-radius: 6px;
   margin-top: -7rem;
 }
 
 #circular-countdown {
-  .time_circles > div > h4 {
+  .time_circles>div>h4 {
     color: @white-color;
   }
-  .time_circles > div > span {
+
+  .time_circles>div>span {
     color: @white-color;
   }
 }
 
 #circular-countdown-whitebg {
-  .time_circles > div > h4 {
+  .time_circles>div>h4 {
     color: @black-color;
   }
-  .time_circles > div > span {
+
+  .time_circles>div>span {
     color: @black-color;
   }
 }
@@ -250,14 +286,18 @@
       margin-right: 6.8rem;
       position: relative;
       bottom: 0px;
+
       &:last-child {
         margin-right: 0;
       }
     }
+
     i {
-      -ms-transform: rotate(0deg) ; /* IE 9 */
-      -webkit-transform: rotate(0deg) ; /* Chrome, Safari, Opera */
-      transform: rotate(0deg) ;
+      -ms-transform: rotate(0deg);
+      /* IE 9 */
+      -webkit-transform: rotate(0deg);
+      /* Chrome, Safari, Opera */
+      transform: rotate(0deg);
       font-style: normal;
       display: inline-block;
       position: absolute;
@@ -285,20 +325,25 @@
 }
 
 @media (max-width : @screen-md-max) {
+
   /************** 1199 GLOBAl USE***********/
   #lgx-countdown {
     display: inline-block;
     margin-bottom: 2.6rem;
+
     span {
       .font-size(42);
       bottom: 0;
       margin-right: 2rem;
     }
+
     i {
       .font-size(16);
-      -ms-transform: rotate(0deg) ; /* IE 9 */
-      -webkit-transform: rotate(0deg) ; /* Chrome, Safari, Opera */
-      transform: rotate(0deg) ;
+      -ms-transform: rotate(0deg);
+      /* IE 9 */
+      -webkit-transform: rotate(0deg);
+      /* Chrome, Safari, Opera */
+      transform: rotate(0deg);
       font-style: normal;
       display: inline-block;
       position: absolute;
@@ -322,10 +367,12 @@
     span {
       .font-size(26);
     }
+
     i {
       .font-size(14);
     }
   }
+
   #lgx-countdown {
     display: inline-block;
   }
@@ -342,6 +389,7 @@
         line-height: 85px;
         height: 100px;
       }
+
       i {
         .font-size(16);
         bottom: 25px;
@@ -354,12 +402,15 @@
   .lgx-about-service {
     display: block;
   }
+
   .lgx-about-service .lgx-single-service-white {
     margin-bottom: 2rem;
   }
 
   /************** 767 GLOBAl USE END***********/
-}/*767 END*/
+}
+
+/*767 END*/
 
 
 /* ----------------------------------------------------------------

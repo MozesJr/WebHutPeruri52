@@ -1,10 +1,12 @@
 .lgx-photo-gallery {
   overflow: hidden;
   margin-bottom: -11px;
+
   .lgx-inner {
     padding-bottom: 0;
   }
 }
+
 .lgx-gallery-area {
   margin-right: -15px;
   margin-left: -15px;
@@ -16,13 +18,16 @@
   background: transparent;
   float: left;
   width: 100%;
+
   figure {
     position: relative;
     overflow: hidden;
+
     img {
       -webkit-transition: 0.4s ease;
       transition: 0.4s ease;
     }
+
     figcaption {
       .bg-rgba(@brand-color, .9);
       position: absolute;
@@ -35,19 +40,23 @@
       -moz-transition: all .3s ease-in-out 0s;
       -o-transition: all .3s ease-in-out 0s;
       transition: all .3s ease-in-out 0s;
+
       .lgx-hover-link {
         display: table;
         height: 100%;
         width: 100%;
+
         .lgx-vertical {
           display: table-cell;
           text-align: center;
           vertical-align: middle;
+
           a {
             color: @white-color;
             .font-size(26);
             -webkit-transition: all 0.2 ease;
             transition: all 0.3s linear;
+
             i {
               padding: 2rem;
             }
@@ -56,6 +65,7 @@
       }
     }
   }
+
   &:hover {
     figure {
       img {
@@ -65,8 +75,10 @@
         -o-transform: scale(1.2);
         transform: scale(1.2);
       }
+
       figcaption {
-        opacity:  1;
+        opacity: 1;
+
         .lgx-hover-link {
           .lgx-vertical {
             a {
@@ -78,6 +90,7 @@
               animation-duration: 600ms;
               animation-timing-function: linear;
               display: block;
+
               &:hover {
                 color: @brand-color3;
               }
@@ -90,16 +103,15 @@
 }
 
 
-.lgx-photo-gallery-normal {
-
-}
+.lgx-photo-gallery-normal {}
 
 .lgx-photo-gallery-black {
-  background: url('http://placehold.it/1920x800') bottom center no-repeat fixed;
+  background: url('../img/back1920x800.png') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+
   .lgx-inner {
     .bg-rgba(@black-color, 0.9);
   }

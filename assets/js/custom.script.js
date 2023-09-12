@@ -1,8 +1,7 @@
-
-(function($) {
+(function ($) {
     "use strict";
 
-    $(document).ready(function() {
+    $(document).ready(function () {
 
 
         /*=========================================================================
@@ -32,7 +31,7 @@
         /*=========================================================================
          ===  Circular CountDown
          ========================================================================== */
-        if ( $('#circular-countdown').length ) {
+        if ($('#circular-countdown').length) {
             $("#circular-countdown").TimeCircles({
                 "animation": "smooth",
                 "bg_width": 1.0,
@@ -112,13 +111,13 @@
 
         /* Assign the initially stored url back to the iframe src
          attribute when modal is displayed */
-        $("#lgx-modal").on('shown.bs.modal', function(){
+        $("#lgx-modal").on('shown.bs.modal', function () {
             $("#modalvideo").attr('src', url);
         });
 
         /* Assign empty url value to the iframe src attribute when
          modal hide, which stop the video playing */
-        $("#lgx-modal").on('hide.bs.modal', function(){
+        $("#lgx-modal").on('hide.bs.modal', function () {
             $("#modalvideo").attr('src', '');
         });
         /*=========================================================================
@@ -131,17 +130,18 @@
         /*=========================================================================
          ===  countdown
          ========================================================================== */
-        if ( $('#lgx-countdown').length ) {
+        if ($('#lgx-countdown').length) {
 
             var dataTime = $('#lgx-countdown').data('date'); // Date Format : Y/m/d
 
-            $('#lgx-countdown').countdown(dataTime, function(event) {
+            $('#lgx-countdown').countdown(dataTime, function (event) {
                 var $this = $(this).html(event.strftime(''
                     /*+ '<span class="lgx-weecks">%w <i> weeks </i></span> '*/
-                    + '<span class="lgx-days">%D <i> Days </i></span> '
-                    + '<span class="lgx-hr">%H <i> Hour </i></span> '
-                    + '<span class="lgx-min">%M <i> Minu </i></span> '
-                    + '<span class="lgx-sec">%S <i> Seco </i></span>'
+                    +
+                    '<span class="lgx-days">%D <i> Days </i></span> ' +
+                    '<span class="lgx-hr">%H <i> Hour </i></span> ' +
+                    '<span class="lgx-min">%M <i> Minu </i></span> ' +
+                    '<span class="lgx-sec">%S <i> Seco </i></span>'
                 ));
             });
         }
@@ -157,20 +157,20 @@
          ===  SMOOTH SCROLL - REQUIRES JQUERY EASING PLUGIN
          ========================================================================== */
 
-        $( 'a.lgx-scroll' ).on( 'click', function(event) {
+        $('a.lgx-scroll').on('click', function (event) {
             var $anchor = $(this);
-            var topTo   = $( $anchor.attr('href') ).offset().top;
+            var topTo = $($anchor.attr('href')).offset().top;
 
-            if ( window.innerWidth < 768 ) {
-                topTo = ( topTo - 90 );
+            if (window.innerWidth < 768) {
+                topTo = (topTo - 90);
             }
 
-            $( 'html, body' ).stop().animate({
+            $('html, body').stop().animate({
                 scrollTop: topTo
             }, 1500, 'easeInOutExpo');
             event.preventDefault();
             return false;
-        } );
+        });
 
         /*=========================================================================
          ===  SMOOTH SCROLL END
@@ -198,7 +198,7 @@
 
 
 
-        if($('#instafeed').length){
+        if ($('#instafeed').length) {
             var userFeed = new Instafeed({
                 get: 'user',
                 userId: '623597756',
@@ -225,13 +225,13 @@
                 items: 1,
                 loop: true,
                 animateOut: 'fadeOut',
-                autoplay:true,
+                autoplay: true,
                 dots: false,
                 navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
                 autoplayTimeout: 5000,
                 autoplaySpeed: 500,
                 nav: true,
-                addClassActive : true
+                addClassActive: true
             });
         }
 
@@ -250,22 +250,22 @@
                 margin: 0,
                 items: 3,
                 loop: true,
-                autoplay:true,
+                autoplay: true,
                 dots: false,
-                navText: ["<img src='./assets/img/arrow-left.png'>","<img src='./assets/img/arrow-right.png'>"],
+                navText: ["<img src='./assets/img/arrow-left.png'>", "<img src='./assets/img/arrow-right.png'>"],
                 autoplayTimeout: 5000,
                 autoplaySpeed: 500,
                 nav: true,
-                addClassActive : true,
-                responsive:{
-                    0:{
-                        items:1
+                addClassActive: true,
+                responsive: {
+                    0: {
+                        items: 1
                     },
-                    480:{
-                        items:2
+                    480: {
+                        items: 2
                     },
-                    992:{
-                        items:3
+                    992: {
+                        items: 3
                     }
                 }
 
@@ -290,16 +290,16 @@
                 items: 1,
                 loop: true,
                 //animateOut: 'fadeOut',
-                autoplay:true,
+                autoplay: true,
                 dots: false,
                 navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
                 autoplayTimeout: 5000,
                 autoplaySpeed: 500,
                 nav: true,
-                addClassActive : true,
-                responsive:{
-                    991:{
-                        items:2
+                addClassActive: true,
+                responsive: {
+                    991: {
+                        items: 2
                     }
                 }
             });
@@ -319,19 +319,19 @@
                 margin: 0,
                 items: 2,
                 loop: true,
-                autoplay:true,
+                autoplay: true,
                 dots: true,
-                navText: ["<img src='./assets/img/arrow-left-ash.png'>","<img src='./assets/img/arrow-right-ash.png'>"],
+                navText: ["<img src='./assets/img/arrow-left-ash.png'>", "<img src='./assets/img/arrow-right-ash.png'>"],
                 autoplayTimeout: 5000,
                 autoplaySpeed: 500,
                 nav: true,
-                addClassActive : true,
-                responsive:{
-                    0:{
-                        items:1
+                addClassActive: true,
+                responsive: {
+                    0: {
+                        items: 1
                     },
-                    787:{
-                        items:1
+                    787: {
+                        items: 1
                     }
                 }
             });
@@ -354,9 +354,9 @@
         /*=========================================================================
          ===  Typed Animation START
          ========================================================================== */
-        if($('#lgx-typed-string').length){
+        if ($('#lgx-typed-string').length) {
             $('#lgx-typed-string').typed({
-                strings: ["UX Conference 2019", "UI Conference 2019","You learn Advance"],
+                strings: ["PERURI INVENTING TOMORROW", "TECH STARTUP PELAT MERAH", "PERURI FOR INDONESIA"],
                 // typing speed
                 typeSpeed: 10,
                 // time before typing starts
@@ -387,9 +387,9 @@
         /*=========================================================================
          ===  Typed Animation START
          ========================================================================== */
-        if($('#lgx-typed-center').length){
+        if ($('#lgx-typed-center').length) {
             $('#lgx-typed-center').typed({
-                strings: ["Festival", "World","Event"],
+                strings: ["Festival", "World", "Event"],
                 // typing speed
                 typeSpeed: 100,
                 // time before typing starts
@@ -436,7 +436,7 @@
                 $(".map-canvas-default").addMarker({
                     coords: [40.7127, 74.0059], // GPS coords
                     title: 'Eventpoint',
-                    text: '121 King St, Melbourne VIC 3000, Australia',
+                    text: 'Urban Park, Jakarta Indonesia',
                     icon: lgx_path + '/assets/img/map/map-icon.png'
                 });
             }
@@ -454,7 +454,7 @@
                 $(".map-canvas-dark").addMarker({
                     coords: [40.7127, 74.0059], // GPS coords
                     title: 'Eventpoint',
-                    text: '121 King St, Melbourne VIC 3000, Australia',
+                    text: 'Urban Park, Jakarta Indonesia',
                     icon: lgx_path + '/assets/img/map/map-icon.png'
                 });
             }
@@ -487,7 +487,9 @@
                 $.ajax({
                     url: lgx_path + '/assets/php/subscribe.php',
                     type: 'post',
-                    data: {'email': emailInput.val().toLowerCase()},
+                    data: {
+                        'email': emailInput.val().toLowerCase()
+                    },
                     beforeSubmit: function (argument) {
                         // body...
                     },
@@ -541,7 +543,7 @@
          ===  Start Contact Form Validation And Ajax Submission
          ========================================================================== */
 
-        var alertInterval;//store the timeout interval ID
+        var alertInterval; //store the timeout interval ID
 
         //clear interval for alert message window
         $('#lgx-form-modal').on('hide.bs.modal', function (ev) {
@@ -634,21 +636,7 @@
          ===  Start Contact Form Validation And Ajax Submission END
          ========================================================================== */
 
-    });//DOM READY
+    }); //DOM READY
 
 
 })(jQuery);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
