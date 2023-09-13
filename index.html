@@ -55,6 +55,7 @@
     <link id="lgx-master-style" rel="stylesheet" href="/assets/css/style-default.min.css" media="all" />
 
     <script src="/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="/assets/js/scriptWaktu.js"></script>
 </head>
 
 <body class="home">
@@ -83,18 +84,19 @@
                             <div id="navbar" class="navbar-collapse collapse">
                                 <div class="lgx-nav-right navbar-right">
                                     <div class="lgx-cart-area">
-                                        <a class="lgx-btn lgx-btn-red" href="#"><span>Absensi</span></a>
+                                        <a id="registerButton1" class="lgx-btn lgx-btn-red btn lightbox-202568473997473"
+                                            href="#" style="display: none;"><span>Regiter Now</span></a>
                                     </div>
                                 </div>
                                 <ul class="nav navbar-nav lgx-nav navbar-right">
                                     <li><a class="lgx-scroll" href="/">Home</a></li>
                                     <li><a class="lgx-scroll" href="#lgx-about">About</a></li>
-                                    <li><a class="lgx-scroll" href="#lgx-speakers">Speaker</a></li>
+                                    <!-- <li><a class="lgx-scroll" href="#lgx-speakers">Speaker</a></li> -->
                                     <li><a class="lgx-scroll" href="#lgx-schedule">Schedule</a></li>
-                                    <li><a class="lgx-scroll" href="#lgx-sponsors">Sponsors</a></li>
+                                    <!-- <li><a class="lgx-scroll" href="#lgx-sponsors">Sponsors</a></li> -->
                                     <li><a class="lgx-scroll" href="#lgx-registration">Grandprize</a></li>
                                     <li><a class="lgx-scroll" href="#lgx-photo-gallery">Gallery</a></li>
-                                    <li><a class="lgx-scroll" href="#lgx-travelinfo">Information</a></li>
+                                    <!-- <li><a class="lgx-scroll" href="#lgx-travelinfo">Information</a></li> -->
                                     <li><a class="lgx-scroll" href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
@@ -115,13 +117,18 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="lgx-banner-info banner-info-margin">
-                                        <h3 class="subtitle"><span id="lgx-typed-string">You can learn
-                                                anything</span></h3>
+                                        <h3 class="subtitle"><span id="lgx-typed-string">PERURI INVENTING
+                                                TOMORROW</span></h3>
                                         <h2 class="title">HUT PERURI Ke - 52
                                             <span><b>2</b><b>0</b><b>2</b><b>3</b></span></h2>
-                                        <h3 class="location"><i class="fa fa-map-marker"></i> Urban Park,
+                                        <h3 class="location mb-5"><i class="fa fa-map-marker"></i> Urban Park,
                                             Jakarta,
                                             Indonesia.</h3>
+                                        <br>
+                                        <a id="registerButton"
+                                            class="lgx-btn lgx-btn-red lgx-scroll btn lightbox-202568473997473" href="#"
+                                            style="display: none;"><span>Register
+                                                Now</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -130,6 +137,7 @@
                 </div>
             </div>
         </section>
+
         <section>
             <div id="lgx-countdowns" class="lgx-countdowns lgx-countdowns4">
                 <!--lgx-countdowns3 lgx-countdowns4-->
@@ -138,7 +146,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="circular-countdown-area">
-                                    <div id="circular-countdown" data-date="2023-09-30 00:00:00"></div>
+                                    <div id="circular-countdown" data-date="2023-09-30 07:00:00"></div>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +158,7 @@
 
         <!--ABOUT-->
         <section>
-            <div id="lgx-about" class="lgx-about">
+            <div id="lgx-about" class="lgx-schedule lgx-schedule-white">
                 <div class="lgx-inner">
                     <div class="container">
                         <div class="row">
@@ -161,7 +169,7 @@
                                         <h3 class="subheading">Dwina Septiani Wijaya</h3>
                                     </div>
                                     <div class="lgx-about-content">
-                                        <p class="text">
+                                        <p class="text" style="text-align: justify;">
                                             Menanggapi perkembangan teknologi global yang terus berubah, “Inventing
                                             Tomorrow” adalah keyakinan dan semangat untuk menciptakan masa depan yang
                                             lebih baik dengan berpikir progresif serta berani mengambil risiko dalam
@@ -179,8 +187,8 @@
                                         </div>
                                         <div class="section-btn-area">
                                             <!-- <a class="lgx-btn" href="#"><span>Dwina Septiani Wijaya</span></a> -->
-                                            <a class="lgx-btn lgx-btn-red lgx-scroll"
-                                                href="#lgx-registration"><span>Register Now</span></a>
+                                            <!-- <a class="lgx-btn lgx-btn-red lgx-scroll"
+                                                href="#lgx-registration"><span>Register Now</span></a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -206,135 +214,23 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="lgx-heading lgx-heading-white">
-                                    <h2 class="heading">Who’s Speaking</h2>
-                                    <h3 class="subheading">Welcome to the dedicated to building remarkable Speakers!
-                                    </h3>
+                                    <h2 class="heading">Music Performance</h2>
+                                    <!-- <h3 class="subheading">Welcome to the dedicated to building remarkable Music
+                                        Performance!
+                                    </h3> -->
                                 </div>
                             </div>
                         </div>
-                        <!--//.ROW-->
-                        <div class="row">
+                        <div class="row lgx-align-center">
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="lgx-single-speaker">
-                                    <!--lgx-single-speaker-circle lgx-single-speaker2 lgx-single-speaker3-->
                                     <figure>
-                                        <a class="profile-img" href="speakers.html"><img
-                                                src="http://placehold.it/800x860" alt="Speaker" /></a>
+                                        <a class="profile-img" href="#"><img src="/assets/img/ran.png"
+                                                alt="Speaker" /></a>
                                         <figcaption>
-                                            <div class="social-group">
-                                                <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                                <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                                <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                                <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                            </div>
                                             <div class="speaker-info">
-                                                <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                                <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="lgx-single-speaker">
-                                    <!--lgx-single-speaker-circle lgx-single-speaker2 lgx-single-speaker3-->
-                                    <figure>
-                                        <a class="profile-img" href="speakers.html"><img
-                                                src="http://placehold.it/800x860" alt="Speaker" /></a>
-                                        <figcaption>
-                                            <div class="social-group">
-                                                <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                                <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                                <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                                <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                            </div>
-                                            <div class="speaker-info">
-                                                <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                                <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="lgx-single-speaker">
-                                    <!--lgx-single-speaker-circle lgx-single-speaker2 lgx-single-speaker3-->
-                                    <figure>
-                                        <a class="profile-img" href="speakers.html"><img
-                                                src="http://placehold.it/800x860" alt="Speaker" /></a>
-                                        <figcaption>
-                                            <div class="social-group">
-                                                <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                                <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                                <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                                <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                            </div>
-                                            <div class="speaker-info">
-                                                <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                                <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="lgx-single-speaker">
-                                    <!--lgx-single-speaker-circle lgx-single-speaker2 lgx-single-speaker3-->
-                                    <figure>
-                                        <a class="profile-img" href="speakers.html"><img
-                                                src="http://placehold.it/800x860" alt="Speaker" /></a>
-                                        <figcaption>
-                                            <div class="social-group">
-                                                <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                                <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                                <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                                <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                            </div>
-                                            <div class="speaker-info">
-                                                <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                                <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="lgx-single-speaker">
-                                    <!--lgx-single-speaker-circle lgx-single-speaker2 lgx-single-speaker3-->
-                                    <figure>
-                                        <a class="profile-img" href="speakers.html"><img
-                                                src="http://placehold.it/800x860" alt="Speaker" /></a>
-                                        <figcaption>
-                                            <div class="social-group">
-                                                <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                                <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                                <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                                <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                            </div>
-                                            <div class="speaker-info">
-                                                <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                                <h4 class="subtitle">Ceo of LogicHunt</h4>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="lgx-single-speaker">
-                                    <!--lgx-single-speaker-circle lgx-single-speaker2 lgx-single-speaker3-->
-                                    <figure>
-                                        <a class="profile-img" href="speakers.html"><img
-                                                src="http://placehold.it/800x860" alt="Speaker" /></a>
-                                        <figcaption>
-                                            <div class="social-group">
-                                                <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                                <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                                <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                                <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
-                                            </div>
-                                            <div class="speaker-info">
-                                                <h3 class="title"><a href="speaker.html">Jonathon Doe</a></h3>
-                                                <h4 class="subtitle">Ceo of LogicHunt</h4>
+                                                <h3 class="title"><a href="#">R A N</a></h3>
+                                                <h4 class="subtitle">Grup Music</h4>
                                             </div>
                                         </figcaption>
                                     </figure>
@@ -345,6 +241,7 @@
                 </div>
             </div>
         </section>
+
         <section>
             <div id="lgx-schedule" class="lgx-schedule">
                 <div class="lgx-inner">
@@ -361,9 +258,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="lgx-tab lgx-tab2">
-                                    <!--lgx-tab2 lgx-tab-vertical-->
                                     <ul class="nav nav-pills lgx-nav lgx-nav-nogap lgx-nav-colorful">
-                                        <!--lgx-nav-nogap lgx-nav-colorful-->
                                         <li class="active"><a data-toggle="pill" href="#home">
                                                 <h3>PERURI <span>INNOVATION AWWARD</span></h3>
                                                 <p><span>Maret </span>September, 2023</p>
@@ -816,7 +711,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div id="menu2" class="tab-pane fade">
                                             <div class="panel-group" id="accordion3" role="tablist"
                                                 aria-multiselectable="true">
@@ -1249,70 +1143,31 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="lgx-heading">
-                                        <h2 class="heading">Offcial Sponsonrs</h2>
+                                        <h2 class="heading">Official Sponsonrs</h2>
                                         <h3 class="subheading">Welcome to the dedicated to building remarkable
                                             Sponsores!</h3>
                                     </div>
                                 </div>
                             </div>
-                            <!--//main row-->
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <h3 class="sponsored-heading first-heading">Gold Sponsors</h3>
                                     <div
                                         class="sponsors-area sponsors-area-nogap sponsors-area-noshadow sponsors-area-col3">
-                                        <!--sponsors-area-col3 sponsors-area-noshadow sponsors-area-nogap sponsors-area-colorfull sponsors-area-colorfull-border sponsors-area-border-->
                                         <div class="single">
-                                            <a class="" href="#"><img src="http://placehold.it/467x157"
+                                            <a class="" href="#"><img src="/assets/img/logoPeruri.png"
                                                     alt="sponsor" /></a>
                                         </div>
                                         <div class="single">
-                                            <a class="" href="#"><img src="http://placehold.it/467x157"
-                                                    alt="sponsor" /></a>
-                                        </div>
-                                        <div class="single">
-                                            <a class="" href="#"><img src="http://placehold.it/467x157"
-                                                    alt="sponsor" /></a>
+                                            <a class="" href="#"><img src="/assets/img/logo52.png" alt="sponsor" /></a>
                                         </div>
                                     </div>
                                 </div>
-                                <!--//col-->
-                            </div>
-                            <!--//row-->
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3 class="sponsored-heading secound-heading">Silver Sponsors</h3>
-                                    <div class="sponsors-area sponsors-area-noshadow sponsors-area-nogap">
-                                        <div class="single">
-                                            <a class="" href="#"><img src="http://placehold.it/467x157"
-                                                    alt="sponsor" /></a>
-                                        </div>
-                                        <div class="single">
-                                            <a class="" href="#"><img src="http://placehold.it/467x157"
-                                                    alt="sponsor" /></a>
-                                        </div>
-                                        <div class="single">
-                                            <a class="" href="#"><img src="http://placehold.it/467x157"
-                                                    alt="sponsor" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--//col-->
                             </div>
                         </div>
-                        <!--//container-->
                     </div>
                 </div>
-                <!--//lgx-inner-->
             </div>
         </section>
-        <!--SPONSORED END-->
-
-
-
-
-
-        <!--REGISTRATION-->
         <section>
             <div id="lgx-registration" class="lgx-registration">
                 <div class="lgx-inner">
@@ -1327,7 +1182,6 @@
                             </div>
                             <div class="col-xs-12">
                                 <div class="lgx-registration-area">
-                                    <!--lgx-registration-area-nogap lgx-registration-area2 lgx-registration-area3 "-->
                                     <div class="lgx-single-registration">
                                         <div class="lgx-single-registration-inner">
                                             <a class="icon" href="#"><img src="/assets/img/vario125.png"
@@ -1380,7 +1234,7 @@
                             <div class="col-xs-12">
                                 <div class="lgx-heading lgx-heading-white">
                                     <h2 class="heading">Photo Gallery</h2>
-                                    <h3 class="subheading">Welcome to the dedicated to building remarkable Sponsores!
+                                    <h3 class="subheading">Lihat Keseruan Rangkaian Acara Perayaan HUT Peruri Ke-52
                                     </h3>
                                 </div>
                             </div>
@@ -1392,13 +1246,13 @@
                                         <div class="item">
                                             <div class="lgx-gallery-single">
                                                 <figure>
-                                                    <img title="Memories One" src="http://placehold.it/1000x732"
-                                                        alt="Memories one" />
+                                                    <img title="Peruri Warrior" src="/assets/img/peruriwarior.JPG"
+                                                        alt="Peruri Warrior" />
                                                     <figcaption class="lgx-figcaption">
                                                         <div class="lgx-hover-link">
                                                             <div class="lgx-vertical">
-                                                                <a title="Memories One"
-                                                                    href="http://placehold.it/1000x732">
+                                                                <a title="Peruri Warrior"
+                                                                    href="/assets/img/peruriwarior.JPG">
                                                                     <i class="fa fa-chain-broken"
                                                                         aria-hidden="true"></i>
                                                                 </a>
@@ -1412,13 +1266,13 @@
                                         <div class="item">
                                             <div class="lgx-gallery-single">
                                                 <figure>
-                                                    <img src="http://placehold.it/1000x732" alt="Memories Two"
-                                                        title="Memories Two" />
+                                                    <img src="/assets/img/tariktambang.JPG" alt="Peruri Tarik Tambang"
+                                                        title="Peruri Tarik Tambang" />
                                                     <figcaption class="lgx-figcaption">
                                                         <div class="lgx-hover-link">
                                                             <div class="lgx-vertical">
-                                                                <a title="Memories Two"
-                                                                    href="http://placehold.it/1000x732">
+                                                                <a title="Peruri Tarik Tambang"
+                                                                    href="/assets/img/tariktambang.JPG">
                                                                     <i class="fa fa-chain-broken"
                                                                         aria-hidden="true"></i>
                                                                 </a>
@@ -1432,13 +1286,12 @@
                                         <div class="item">
                                             <div class="lgx-gallery-single">
                                                 <figure>
-                                                    <img src="http://placehold.it/1000x732" alt="Memories Three"
-                                                        title="Memories Three" />
+                                                    <img src="/assets/img/Senam.JPG" alt="Peruri Senam"
+                                                        title="Peruri Senam" />
                                                     <figcaption class="lgx-figcaption">
                                                         <div class="lgx-hover-link">
                                                             <div class="lgx-vertical">
-                                                                <a title="Memories Three"
-                                                                    href="http://placehold.it/1000x732">
+                                                                <a title="Peruri Senam" href="/assets/img/Senam.JPG">
                                                                     <i class="fa fa-chain-broken"
                                                                         aria-hidden="true"></i>
                                                                 </a>
@@ -1452,13 +1305,13 @@
                                         <div class="item">
                                             <div class="lgx-gallery-single">
                                                 <figure>
-                                                    <img src="http://placehold.it/1000x732" alt="Memories Four"
-                                                        title="Memories Four" />
+                                                    <img src="/assets/img/badminton.JPG" alt="Peruri Badminton"
+                                                        title="Peruri Badminton" />
                                                     <figcaption class="lgx-figcaption">
                                                         <div class="lgx-hover-link">
                                                             <div class="lgx-vertical">
-                                                                <a title="Memories Four"
-                                                                    href="http://placehold.it/1000x732">
+                                                                <a title="Peruri Badminton"
+                                                                    href="/assets/img/badminton.JPG">
                                                                     <i class="fa fa-chain-broken"
                                                                         aria-hidden="true"></i>
                                                                 </a>
@@ -1472,13 +1325,12 @@
                                         <div class="item">
                                             <div class="lgx-gallery-single">
                                                 <figure>
-                                                    <img src="http://placehold.it/1000x732" alt="Memories Five"
-                                                        title="Memories Five" />
+                                                    <img src="/assets/img/Basket.JPG" alt="Peruri Basket"
+                                                        title="Peruri Basket" />
                                                     <figcaption class="lgx-figcaption">
                                                         <div class="lgx-hover-link">
                                                             <div class="lgx-vertical">
-                                                                <a title="Memories Five"
-                                                                    href="http://placehold.it/1000x732">
+                                                                <a title="Peruri Basket" href="/assets/img/Basket.JPG">
                                                                     <i class="fa fa-chain-broken"
                                                                         aria-hidden="true"></i>
                                                                 </a>
@@ -1492,13 +1344,67 @@
                                         <div class="item">
                                             <div class="lgx-gallery-single">
                                                 <figure>
-                                                    <img src="http://placehold.it/1000x732" alt="Memories Six"
-                                                        title="Memories Six" />
+                                                    <img src="/assets/img/futsal.JPG" alt="Peruri Futsal"
+                                                        title="Peruri Futsal" />
                                                     <figcaption class="lgx-figcaption">
                                                         <div class="lgx-hover-link">
                                                             <div class="lgx-vertical">
-                                                                <a title="Memories Six"
-                                                                    href="http://placehold.it/1000x732">
+                                                                <a title="Peruri Futsal" href="/assets/img/futsal.JPG">
+                                                                    <i class="fa fa-chain-broken"
+                                                                        aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="lgx-gallery-single">
+                                                <figure>
+                                                    <img src="/assets/img/Voli.JPG" alt="Peruri Voli"
+                                                        title="Peruri Voli" />
+                                                    <figcaption class="lgx-figcaption">
+                                                        <div class="lgx-hover-link">
+                                                            <div class="lgx-vertical">
+                                                                <a title="Peruri Voli" href="/assets/img/Voli.JPG">
+                                                                    <i class="fa fa-chain-broken"
+                                                                        aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="lgx-gallery-single">
+                                                <figure>
+                                                    <img src="/assets/img/MLBB.JPG" alt="Peruri MLBB"
+                                                        title="Peruri MLBB" />
+                                                    <figcaption class="lgx-figcaption">
+                                                        <div class="lgx-hover-link">
+                                                            <div class="lgx-vertical">
+                                                                <a title="Peruri MLBB" href="/assets/img/MLBB.JPG">
+                                                                    <i class="fa fa-chain-broken"
+                                                                        aria-hidden="true"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="lgx-gallery-single">
+                                                <figure>
+                                                    <img src="/assets/img/sepakbola.JPG" alt="Peruri Sepak Bola"
+                                                        title="Peruri Sepak Bola" />
+                                                    <figcaption class="lgx-figcaption">
+                                                        <div class="lgx-hover-link">
+                                                            <div class="lgx-vertical">
+                                                                <a title="Peruri Sepak Bola"
+                                                                    href="/assets/img/sepakbola.JPG">
                                                                     <i class="fa fa-chain-broken"
                                                                         aria-hidden="true"></i>
                                                                 </a>
@@ -1518,11 +1424,9 @@
                 </div>
             </div>
         </section>
-        <!--PHOTO GALLERY END-->
 
-        <!--TRAVEL INFO-->
         <section>
-            <div id="lgx-travelinfo" class="lgx-travelinfo">
+            <div id="lgx-travelinfo" class="lgx-schedule lgx-schedule2 lgx-schedule-white">
                 <div class="lgx-inner">
                     <div class="container">
                         <div class="row">
@@ -1532,46 +1436,58 @@
                                     <h3 class="subheading">Conferences dedicated to building remarkable events.</h3>
                                 </div>
                             </div>
-                            <!--//main COL-->
                         </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="lgx-travelinfo-content">
-                                    <div class="lgx-travelinfo-single">
-                                        <img src="/assets/img/info-icon1.png" alt="location" />
-                                        <h3 class="title">Doorprize</h3>
-                                        <p class="info">Total 357 Item Doorprize</p>
-                                    </div>
-                                    <div class="lgx-travelinfo-single">
-                                        <img src="/assets/img/info-icon2.png" alt="Transport" />
-                                        <h3 class="title">Employee</h3>
-                                        <p class="info">2893 Employee Of Peruri</p>
-                                    </div>
-                                    <div class="lgx-travelinfo-single">
-                                        <img src="/assets/img/info-icon3.png" alt="Hotel & Restaurant" />
-                                        <h3 class="title">IAKA</h3>
-                                        <p class="info">113 Innovation Participated</p>
-                                    </div>
-                                    <div class="lgx-travelinfo-single">
-                                        <img src="/assets/img/info-icon3.png" alt="Video Performed" />
-                                        <h3 class="title">Video Performed</h3>
-                                        <p class="info">10 Video Performed</p>
+                        <div class="lgx-milestone-area">
+                            <div class="lgx-milestone">
+                                <div class="milestone-inner">
+                                    <div class="lgx-content">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="/assets/img/1.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">517</span>
+                                                        <small>Item Doorprize</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="/assets/img/2.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">2893</span>
+                                                        <small>Great Speakers</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="/assets/img/3.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">112</span>
+                                                        <small>Innovation Participated</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                                <div class="lgx-counter-area">
+                                                    <img src="/assets/img/4.png" alt="teacher icon">
+                                                    <div class="counter-text">
+                                                        <span class="lgx-counter">10</span>
+                                                        <small>Video Performed</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--//.ROW-->
                     </div>
-                    <!-- //.CONTAINER -->
                 </div>
             </div>
         </section>
-        <!--TRAVEL INFO END-->
 
-
-
-
-        <!--VIDEO-->
         <section>
             <div id="lgx-video" class="lgx-video">
                 <div class="lgx-inner">
@@ -1615,13 +1531,6 @@
                 </div><!-- //.INNER -->
             </div>
         </section>
-        <!--//.VIDEO END-->
-
-
-
-
-
-        <!--FOOTER-->
         <footer>
             <div id="lgx-footer" class="lgx-footer">
                 <div class="lgx-inner-footer">
@@ -1692,12 +1601,12 @@
                 <!-- //.footer Middle -->
             </div>
         </footer>
-        <!--FOOTER END-->
 
 
     </div>
     <!--//.LGX SITE CONTAINER-->
     <!-- *** ADD YOUR SITE SCRIPT HERE *** -->
+    <script src="/assets/js/scriptWaktu.js"></script>
     <!-- JQUERY  -->
     <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
 
@@ -1747,6 +1656,135 @@
 
     <!-- CUSTOM SCRIPT  -->
     <script src="/assets/js/custom.script.js"></script>
+
+    <!-- Modal Absensi -->
+    <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        var JFL_202568473997473 = new JotformFeedback({
+            formId: '202568473997473',
+            base: 'https://form.jotform.com/',
+            windowTitle: 'Form Absensi HUT Ke-52 PERURI',
+            backgroundColor: '#4a90e2',
+            fontColor: '#FFFFFF',
+            type: '1',
+            height: 500,
+            width: 700,
+            openOnLoad: false
+        });
+    </script>
+    <script type="text/javascript">
+        var ifr = document.getElementById("lightbox-202568473997473");
+        if (ifr) {
+            var src = ifr.src;
+            var iframeParams = [];
+            if (window.location.href && window.location.href.indexOf("?") > -1) {
+                iframeParams = iframeParams.concat(window.location.href.substr(window
+                    .location.href.indexOf("?") + 1).split('&'));
+            }
+            if (src && src.indexOf("?") > -1) {
+                iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1)
+                    .split("&"));
+                src = src.substr(0, src.indexOf("?"))
+            }
+            iframeParams.push("isIframeEmbed=1");
+            ifr.src = src + "?" + iframeParams.join('&');
+        }
+        window.handleIFrameMessage = function (e) {
+            if (typeof e.data === 'object') {
+                return;
+            }
+            var args = e.data.split(":");
+            if (args.length > 2) {
+                iframe = document.getElementById("lightbox-" + args[(args.length -
+                    1)]);
+            } else {
+                iframe = document.getElementById("lightbox");
+            }
+            if (!iframe) {
+                return;
+            }
+            switch (args[0]) {
+                case "scrollIntoView":
+                    iframe.scrollIntoView();
+                    break;
+                case "setHeight":
+                    iframe.style.height = args[1] + "px";
+                    if (!isNaN(args[1]) && parseInt(iframe.style.minHeight) >
+                        parseInt(args[1])) {
+                        iframe.style.minHeight = args[1] + "px";
+                    }
+                    break;
+                case "collapseErrorPage":
+                    if (iframe.clientHeight > window.innerHeight) {
+                        iframe.style.height = window.innerHeight + "px";
+                    }
+                    break;
+                case "reloadPage":
+                    window.location.reload();
+                    break;
+                case "loadScript":
+                    if (!window.isPermitted(e.origin, ['jotform.com',
+                            'jotform.pro'
+                        ])) {
+                        break;
+                    }
+                    var src = args[1];
+                    if (args.length > 3) {
+                        src = args[1] + ':' + args[2];
+                    }
+                    var script = document.createElement('script');
+                    script.src = src;
+                    script.type = 'text/javascript';
+                    document.body.appendChild(script);
+                    break;
+                case "exitFullscreen":
+                    if (window.document.exitFullscreen) window.document
+                        .exitFullscreen();
+                    else if (window.document.mozCancelFullScreen) window.document
+                        .mozCancelFullScreen();
+                    else if (window.document.mozCancelFullscreen) window.document
+                        .mozCancelFullScreen();
+                    else if (window.document.webkitExitFullscreen) window.document
+                        .webkitExitFullscreen();
+                    else if (window.document.msExitFullscreen) window.document
+                        .msExitFullscreen();
+                    break;
+            }
+            var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+            if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe
+                .contentWindow) {
+                var urls = {
+                    "docurl": encodeURIComponent(document.URL),
+                    "referrer": encodeURIComponent(document.referrer)
+                };
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    "type": "urls",
+                    "value": urls
+                }), "*");
+            }
+        };
+        window.isPermitted = function (originUrl, whitelisted_domains) {
+            var url = document.createElement('a');
+            url.href = originUrl;
+            var hostname = url.hostname;
+            var result = false;
+            if (typeof hostname !== 'undefined') {
+                whitelisted_domains.forEach(function (element) {
+                    if (hostname.slice((-1 * element.length - 1)) === '.'
+                        .concat(element) || hostname === element) {
+                        result = true;
+                    }
+                });
+                return result;
+            }
+        };
+        if (window.addEventListener) {
+            window.addEventListener("message", handleIFrameMessage, false);
+        } else if (window.attachEvent) {
+            window.attachEvent("onmessage", handleIFrameMessage);
+        }
+    </script>
 
 </body>
 

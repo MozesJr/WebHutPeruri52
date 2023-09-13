@@ -197,6 +197,14 @@ input[type=button]:focus {
     padding: 13rem 0
 }
 
+.lgx-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    /* Opsi ini akan membuat konten tetap di tengah bahkan saat scroll */
+}
+
 blockquote {
     overflow: hidden;
     color: #1b273d;
@@ -9747,7 +9755,7 @@ button:hover:after {
 }
 
 .lgx-milestone .lgx-counter-area img {
-    opacity: .4
+    opacity: .9
 }
 
 .lgx-milestone .lgx-counter-area i {
@@ -9774,12 +9782,12 @@ button:hover:after {
     font-size: 6.8rem;
     font-weight: 900;
     margin-bottom: 1rem;
-    color: #fff
+    color: #1B273D
 }
 
 .lgx-milestone .lgx-counter-area .counter-text small {
     font-family: Poppins, sans-serif;
-    color: #fff;
+    color: #1B273D;
     font-size: 2rem;
     line-height: 3rem;
     font-weight: 400;
@@ -9812,7 +9820,7 @@ button:hover:after {
 }
 
 .lgx-schedule-white {
-    background: #f1f1f1
+    background: #ffffff
 }
 
 .lgx-schedule-music {

@@ -356,7 +356,7 @@
          ========================================================================== */
         if ($('#lgx-typed-string').length) {
             $('#lgx-typed-string').typed({
-                strings: ["PERURI INVENTING TOMORROW", "TECH STARTUP PELAT MERAH", "PERURI FOR INDONESIA"],
+                strings: ["PERURI INVENTING TOMORROW", "TECH STARTUP PELAT MERAH", "PERURI FOR INDONESIA", "PERURI INNOVATION AWWARD", "PERURI SPORT FEST", "PERURI ART AND MUSIC"],
                 // typing speed
                 typeSpeed: 10,
                 // time before typing starts
